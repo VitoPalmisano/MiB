@@ -9,8 +9,7 @@ from inplace_abn import InPlaceABNSync, InPlaceABN, ABN
 from functools import partial, reduce
 
 import models
-# from modules import DeeplabV3
-from modules import BiSeNet, context_path
+from modules import DeeplabV3
 
 
 def make_model(opts, classes=None):
